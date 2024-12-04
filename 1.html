@@ -1,0 +1,165 @@
+規劃網站架構
+主題:氣象智瞰360
+頁面規劃
+內容規劃
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>氣象智瞰360</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+        header {
+            background-color: #005f99;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #007acc;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #005f99;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .feature-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        footer {
+            background-color: #005f99;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>氣象智瞰360</h1>
+    <p>即時天氣、氣候趨勢、災害預警一站式平台</p>
+</header>
+
+<nav>
+    <a href="#realtime-weather">即時天氣</a>
+    <a href="#forecast-trends">天氣趨勢</a>
+    <a href="#disaster-alerts">災害預警</a>
+    <a href="#climate-knowledge">氣候知識</a>
+    <a href="#about-us">關於我們</a>
+</nav>
+
+<section class="hero">
+    <h1>探索大自然的節奏</h1>
+    <p>360度天氣視圖與科學解讀，助您提前掌握未來</p>
+</section>
+
+<section id="realtime-weather">
+    <h2>即時天氣</h2>
+    <p>查看當前地區天氣狀況，包含溫度、降雨機率、風速與濕度等數據。</p>
+    <div class="features">
+        <div class="feature-card">
+            <h3>即時數據</h3>
+            <p>精準數據更新，幫助您掌控每一刻的天氣變化。</p>
+        </div>
+        <div class="feature-card">
+            <h3>360度地圖</h3>
+            <p>互動地圖顯示風場、降雨雷達與溫度分布。</p>
+        </div>
+    </div>
+</section>
+
+<section id="forecast-trends">
+    <h2>天氣趨勢與預測</h2>
+    <p>掌握未來天氣趨勢，包括短期預測與長期氣候模式分析。</p>
+    <div class="features">
+        <div class="feature-card">
+            <h3>短期預測</h3>
+            <p>查看未來7天的詳細天氣預測。</p>
+        </div>
+        <div class="feature-card">
+            <h3>極端天氣警告</h3>
+            <p>即時推送極端天氣警報，做好準備。</p>
+        </div>
+    </div>
+</section>
+
+<section id="disaster-alerts">
+    <h2>災害預警</h2>
+    <p>即時災害警報與防災指南，保障您的安全。</p>
+    <div class="features">
+        <div class="feature-card">
+            <h3>颱風與地震警報</h3>
+            <p>查看即時颱風路徑與地震速報。</p>
+        </div>
+        <div class="feature-card">
+            <h3>避難指南</h3>
+            <p>詳細的防災建議與避難路線。</p>
+        </div>
+    </div>
+</section>
+
+<section id="climate-knowledge">
+    <h2>氣候知識與科普</h2>
+    <p>探索氣候科學，了解氣象背後的原理與趨勢。</p>
+    <div class="features">
+        <div class="feature-card">
+            <h3>氣候變遷</h3>
+            <p>分析全球變暖對我們生活的影響。</p>
+        </div>
+        <div class="feature-card">
+            <h3>天氣現象</h3>
+            <p>解密颱風、雷暴與極端天氣的科學原理。</p>
+        </div>
+    </div>
+</section>
+
+<section id="about-us">
+    <h2>關於我們</h2>
+    <p>我們致力於提供準確可靠的氣象服務，幫助您更好地規劃每一天。</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 氣象智瞰360. 版權所有。</p>
+</footer>
+
+</body>
+</html>
