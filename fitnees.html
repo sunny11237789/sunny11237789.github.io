@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>減肥產品</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .banner {
+            text-align: center;
+            padding: 50px;
+            background: url('banner.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        .section {
+            padding: 20px;
+        }
+        .products, .success-stories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product, .story {
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>歡迎來到您的減肥旅程</h1>
+    </header>
+
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#products">產品</a>
+        <a href="#stories">成功案例</a>
+        <a href="#blog">知識中心</a>
+        <a href="#faq">常見問題</a>
+        <a href="#contact">聯絡我們</a>
+    </nav>
+
+    <div class="banner" id="home">
+        <h2>健康減重從這裡開始！</h2>
+        <p>探索有效的產品與啟發人心的故事，幫助您實現目標。</p>
+        <button style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">立即購買</button>
+    </div>
+
+    <section class="section" id="products">
+        <h2>我們的產品</h2>
+        <div class="products">
+            <div class="product">
+                <h3>減肥膠囊</h3>
+                <p>以天然成分提升新陳代謝。</p>
+                <p>價格：$29.99</p>
+                <button>加入購物車</button>
+            </div>
+            <div class="product">
+                <h3>健康代餐</h3>
+                <p>美味的代餐，提供均衡營養。</p>
+                <p>價格：$39.99</p>
+                <button>加入購物車</button>
+            </div>
+            <div class="product">
+                <h3>燃脂霜</h3>
+                <p>有效針對頑固脂肪部位。</p>
+                <p>價格：$19.99</p>
+                <button>加入購物車</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="stories">
+        <h2>成功案例</h2>
+        <div class="success-stories">
+            <div class="story">
+                <h3>Jane 的故事</h3>
+                <p>「我在三個月內減掉了 20 磅！」</p>
+                <img src="jane.jpg" alt="前後對比" style="width: 100%;">
+            </div>
+            <div class="story">
+                <h3>Mike 的轉變</h3>
+                <p>「這個產品改變了我的人生。」</p>
+                <img src="mike.jpg" alt="前後對比" style="width: 100%;">
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="blog">
+        <h2>知識中心</h2>
+        <article>
+            <h3>為什麼減重會遇到瓶頸？</h3>
+            <p>了解減重瓶頸的科學原因及如何克服。</p>
+        </article>
+        <article>
+            <h3>三個健康早餐秘訣</h3>
+            <p>用這些簡單有效的早餐建議，正確開始新的一天。</p>
+        </article>
+    </section>
+
+    <section class="section" id="faq">
+        <h2>常見問題</h2>
+        <p><strong>問：</strong>這些產品安全嗎？ <br><strong>答：</strong>是的，我們的所有產品均採用天然、安全的成分製成。</p>
+        <p><strong>問：</strong>多久可以看到效果？ <br><strong>答：</strong>效果因人而異，但大多數使用者在 4-6 週內會看到變化。</p>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>聯絡我們</h2>
+        <p>電子郵件：support@weightloss.com</p>
+        <p>電話：1-800-123-4567</p>
+        <form>
+            <label for="message">訊息：</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <button type="submit">送出</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 減肥產品。版權所有。</p>
+    </footer>
+</body>
+</html>
